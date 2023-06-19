@@ -38,7 +38,7 @@ serde = { version = "1.0.144", features = ["derive"] }
 bytemuck = "1.12.1"
 
 # Scripting
-wasmtime = { version = "0.40.1", features = ["cranelift"] }
+wasmtime = { version = "6.0.2", features = ["cranelift"] }
 
 # Random
 fastrand = "1.8.0"
